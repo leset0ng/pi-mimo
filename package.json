@@ -1,0 +1,24 @@
+{
+  "name": "@lesetong/pi-mimo",
+  "version": "1.4.0",
+  "description": "Pi extension for Xiaomi MiMo AI models with multi-region & auth.json support",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "mimo",
+    "xiaomi",
+    "ai",
+    "llm",
+    "provider"
+  ],
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-ai": "*"
+  }
+}
