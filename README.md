@@ -6,8 +6,16 @@ Supports **multiple regions** (CN / SGP / AMS) and **both OpenAI-compatible and 
 
 ## Install
 
+### Via npm
+
 ```bash
 pi install npm:@lesetong/pi-mimo
+```
+
+### Via git (GitHub)
+
+```bash
+pi install git:github.com/leset0ng/pi-mimo
 ```
 
 ## Setup
