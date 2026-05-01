@@ -237,9 +237,6 @@ export default async function (pi: ExtensionAPI) {
   }
 
   const filtered = modelsResponse.data.length - codingModels.length;
-  if (filtered > 0) {
-    console.log(`[pi-mimo] Filtered out ${filtered} non-coding model(s).`);
-  }
 
   const models = codingModels.map((model) => {
     const plat = platformModels.get(model.id);
@@ -277,8 +274,4 @@ export default async function (pi: ExtensionAPI) {
     api,
     models,
   });
-
-  console.log(
-    `[pi-mimo] Registered ${models.length} model(s): ${models.map((m) => m.id).join(", ")}`,
-  );
 }
