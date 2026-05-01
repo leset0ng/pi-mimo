@@ -12,6 +12,14 @@
     "provider"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leset0ng/pi-mimo.git"
+  },
+  "homepage": "https://github.com/leset0ng/pi-mimo#readme",
+  "bugs": {
+    "url": "https://github.com/leset0ng/pi-mimo/issues"
+  },
   "pi": {
     "extensions": [
       "./extensions/index.ts"
