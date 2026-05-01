@@ -177,8 +177,6 @@ export default async function (pi: ExtensionAPI) {
     return;
   }
 
-  console.log(`[pi-mimo] baseUrl=${baseUrl}, api=${api}`);
-
   // Fetch models from token-plan API
   let modelsResponse: MiMoModelsResponse;
   try {
